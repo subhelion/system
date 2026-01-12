@@ -1,0 +1,7 @@
+/credentials/**
+/tools
+
+!.gitkeep
+
+/profile/**
+!/profile/belimoth/**
