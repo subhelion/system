@@ -1,0 +1,21 @@
+[Setup]
+Lang=default
+Dir=C:\Program Files\Git
+Group=Git
+NoIcons=1
+SetupType=default
+Components=gitlfs
+Tasks=
+EditorOption=VIM
+CustomEditorPath=
+PathOption=BashOnly
+SSHOption=OpenSSH
+TortoiseOption=false
+CURLOption=OpenSSL
+CRLFOption=LFOnly
+BashTerminalOption=ConHost
+PerformanceTweaksFSCache=Enabled
+UseCredentialManager=Enabled
+EnableSymlinks=Enabled
+GitPullBehaviorOption=Merge
+EnablePseudoConsoleSupport=Disabled

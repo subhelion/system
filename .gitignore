@@ -2,6 +2,3 @@
 /tools
 
 !.gitkeep
-
-/profile/**
-!/profile/belimoth/**

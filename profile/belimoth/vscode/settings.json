@@ -1,0 +1,152 @@
+{
+	// text editor
+	"editor.autoClosingQuotes": "never",
+	"editor.autoIndent": "full",
+	"editor.codeLens": false,
+	"editor.comments.ignoreEmptyLines": false,
+	"editor.copyWithSyntaxHighlighting": false,
+	"editor.dragAndDrop": false,
+	"editor.highlightActiveIndentGuide": false,
+	"editor.hover.enabled": false,
+	"editor.insertSpaces": false,
+	"editor.lightbulb.enabled": false,
+	"editor.matchBrackets": "never",
+	"editor.parameterHints.enabled": false,
+	"editor.renderIndentGuides": false,
+	"editor.renderLineHighlight": "none",
+	"editor.roundedSelection": false,
+	"editor.selectionHighlight": false,
+	"editor.semanticHighlighting.enabled": false,
+	"editor.trimAutoWhitespace": true,
+
+	// text editor/cursor
+	"editor.cursorSurroundingLines": 1,
+	"editor.cursorSurroundingLinesStyle": "all",
+
+	// text editor/find
+	"editor.find.seedSearchStringFromSelection": "never",
+
+	// text editor/font
+	"editor.fontFamily": "Consolas, 'Courier New', monospace",
+
+	// text editor/suggestions
+	"editor.acceptSuggestionOnEnter": "off",
+
+	"editor.quickSuggestions": {
+		"other": false,
+		"comments": false,
+		"strings": false
+	},
+
+	"editor.inlineSuggest.enabled": false,
+	"editor.wordBasedSuggestions": false,
+
+	// text editor/files
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+
+	// workbench
+	"workbench.commandPalette.history": 0,
+	"workbench.enableExperiments": false,
+	"workbench.list.keyboardNavigation": "simple",
+	"workbench.startupEditor": "none",
+
+	// workbench/appearance
+	"workbench.iconTheme": "vs-minimal",
+
+	// workbench/editor management
+	"workbench.editor.decorations.badges": false,
+	"workbench.editor.decorations.colors": false,
+	"workbench.editor.focusRecentEditorAfterClose": false,
+	"workbench.editor.mouseBackForwardToNavigate": false,
+	"workbench.editor.restoreViewState": false,
+	"workbench.editor.showIcons": false,
+	"workbench.editor.untitled.hint": "hidden", // NOTE tour
+
+	// workbench/settings editor
+	"workbench.settings.enableNaturalLanguageSearch": false,
+	"workbench.settings.openDefaultKeybindings": true,
+
+	// window
+	"window.restoreFullscreen": true,
+	"window.restoreWindows": "none",
+	"window.newWindowDimensions": "fullscreen",
+
+	// features/explorer
+	"explorer.autoReveal": false,
+	"explorer.copyRelativePathSeparator": "/",
+	"explorer.decorations.badges": false,
+	"explorer.decorations.colors": false,
+	"explorer.openEditors.visible": 0,
+
+	// features/search
+	"search.quickOpen.includeHistory": false,
+
+	// features/scm
+	"scm.autoReveal": false,
+	"scm.diffDecorations": "none",
+
+	// features/extensions
+	"extensions.autoUpdate": false,
+	"extensions.ignoreRecommendations": true,
+
+	// features/terminal
+	"terminal.integrated.allowChords": false,
+	"terminal.integrated.enablePersistentSessions": false,
+	"terminal.integrated.scrollback": 10000,
+	"terminal.integrated.tabs.showActions": "never",
+	"terminal.integrated.tabs.showActiveTerminal": "never",
+	"terminal.integrated.windowsEnableConpty": false, // NOTE https://github.com/microsoft/vscode/issues/75141
+
+	// features/terminal/profiles
+	"terminal.integrated.defaultProfile.windows": "bash",
+	"terminal.integrated.profiles.windows" : {
+		"bash" : { "path": "C:\\Program Files\\Git\\bin\\bash.exe" }
+	},
+
+	// features/problems
+	"problems.decorations.enabled": false,
+
+
+	// application/update
+	"update.enableWindowsBackgroundUpdates": false,
+	"update.mode": "manual",
+
+	// application/telemetry
+	// "telemetry.enableCrashReporter": false,
+	// "telemetry.enableTelemetry": false,
+	"telemetry.telemetryLevel": "off",
+
+	// security
+	"security.workspace.trust.enabled": false,
+
+	// extensions/cpp
+	"C_Cpp.autoAddFileAssociations": false,
+	"C_Cpp.dimInactiveRegions": false,
+
+	// extensions/git
+	"git.confirmSync": false, // NOTE tour
+	"git.enableSmartCommit": true, // NOTE tour
+	"git.fetchOnPull": true,
+	"git.terminalAuthentication": false,
+
+	// extensions/github
+	"github.gitAuthentication": false,
+
+	// new settings (unsorted)
+	"": "",
+	"liveshare.comments": false,
+	"files.hotExit": "off",
+	"[plaintext]": {
+		"editor.wordWrap": "on"
+	},
+	"diffEditor.ignoreTrimWhitespace": false,
+	"diffEditor.renderSideBySide": false,
+	"html.autoClosingTags": false,
+	"explorer.confirmDragAndDrop": false,
+	"remote.SSH.remotePlatform": {
+		"rpi.local": "linux"
+	}
+}

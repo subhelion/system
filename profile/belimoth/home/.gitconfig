@@ -1,0 +1,22 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+# [diff]
+# 	tool = vscode
+# [difftool "vscode"]
+# 	cmd = code --wait --diff $LOCAL $REMOTE
+# [merge]
+# 	tool = vscode
+# [mergetool "vscode"]
+# 	cmd = code --wait $MERGED
+[user]
+	name = belimoth
+	email = 2490151+belimoth@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[pull]
+	ff = only
