@@ -4,6 +4,7 @@ export PROFILE=belimoth
 export GITHUB_USERNAME=belimoth
 
 export PATH=$PATH:~/desktop/system/script
+export PATH=$PATH:~/desktop/system/profile/$PROFILE/script
 
 source rc-bash.sh
 source rc-git.sh
@@ -21,7 +22,7 @@ alias ls="ls -1"
 # use vs_code
 
 clone () {
-	project-clone $@
+	code-clone $@
 }
 
 edit () {
@@ -29,7 +30,7 @@ edit () {
 		cd ~/desktop/system
 		code . --reuse-window
 	} || {
-		project-edit $@
+		code-edit $@
 	}
 
 }

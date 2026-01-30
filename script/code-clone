@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # usage:
-# project-edit <slug>
+# code-clone <slug> && code-edit $_
 
 set -o errexit
 
@@ -13,10 +13,12 @@ repo=$( echo $slug | cut -d'/' -f2 )
 [[ $slug == */* ]] || org=$GITHUB_USERNAME
 slug=$org/$repo
 
-[[ -d ~/desktop/code/$slug ]] || { echo error; exit 1; }
+cd ~/desktop/code
 
-cd ~/desktop/code/$slug
+mkdir --parents $org && cd $_
 
-[[ -f ./script/start ]] || code . --reuse-window && ./script/start
+git clone $( forge-url-gh $slug )
 
-exit
+cd $repo
+
+[[ -f ./script/profile/$PROFILE ]] && bash ./script/zach-remotes
